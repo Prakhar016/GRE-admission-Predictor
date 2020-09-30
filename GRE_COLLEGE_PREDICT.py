@@ -68,10 +68,10 @@ PREDICT=pred(gre,toefl,univ,sop,lor,cgpa)
 
 
 if PREDICT>0.95:
-    print("admission possble in Top Collages")
+    print("Dont worry, relax yot got it mate!")
 elif 0.80<PREDICT<0.95:
-    print("maybe admission possible")
+    print("Build your profile to increase chances.")
 elif PREDICT<0.80:
-    print("Better luck next time")
+    print("Try after getting some work experience.")
 
 
